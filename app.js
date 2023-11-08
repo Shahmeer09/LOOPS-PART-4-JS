@@ -68,22 +68,23 @@
 //  }
 
 
-//question 20
+// question 20
 
 // Ask the user for the number of lines
-// let numLines = parseInt(prompt("Enter the number of lines for pattern a:"));
+let numLines = parseInt(prompt("Enter the number of lines for pattern a:"));
 
-// // Create and display pattern a
+// Create and display pattern a
 // for (let i = 0; i < numLines; i++) {
 //     let line = '';
 //     for (let j = 0; j < 5; j++) {
 //         line += '*';
 //     }
 //     document.write(line + '<br>');
+//     console.log(numLines);
 // }
 // document.write('<br>');
 
-// // Create and display pattern b
+// Create and display pattern b
 // for (let i = 1; i <= numLines; i++) {
 //     let line = '';
 //     for (let j = 0; j < i; j++) {
@@ -93,11 +94,11 @@
 // }
 // document.write('<br>');
 
-// // Create and display pattern c
-// for (let i = numLines; i > 0; i--) {
-//     let line = '';
-//     for (let j = 0; j < i; j++) {
-//         line += '*';
-//     }
-//     document.write(line + '<br>');
-// }
+// Create and display pattern c
+for (let i = numLines; i > 0; i--) {
+    let line = '';
+    for (let j = 0; j < i; j++) {
+        line += '*';
+    }
+    document.write(line + '<br>');
+}
