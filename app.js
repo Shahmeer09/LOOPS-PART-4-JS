@@ -95,10 +95,20 @@ let numLines = parseInt(prompt("Enter the number of lines for pattern a:"));
 // document.write('<br>');
 
 // Create and display pattern c
-for (let i = numLines; i > 0; i--) {
-    let line = '';
-    for (let j = 0; j < i; j++) {
-        line += '*';
-    }
-    document.write(line + '<br>');
-}
+// for (let i = numLines; i > 0; i--) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }
+
+ // usama
+ // Create and display pattern c
+// for (let i = numLines; i > 0; i--) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }
